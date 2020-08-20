@@ -13,7 +13,7 @@
             <div class="map">
                 <div class="listing">
                     <div class="search_box">
-                        <input type="text" placeholder="Search" id="search" autocomplete="off">
+                        <input type="text" placeholder="Ender Store Name" id="search" autocomplete="off">
                         <div id="search_suggestion" style="display: none;">
                             <ul></ul>
                         </div>
@@ -21,6 +21,43 @@
                     <ul class="address_list">
                         <div id="info_div"></div>
                     </ul>
+                    <br><br><br>
+                    <pre>
+var stores = [
+    {
+        name: 'First Store',
+        location: {lat: 40.785091, lng: -73.968285},
+        hours: '8AM to 10PM'
+    },
+    {
+        name: 'Second Store',
+        location: {lat: 12.120000, lng: 76.680000},
+        hours: '9AM to 9PM'
+    },
+    {
+        name: 'Third Store',
+        location: {lat:24.879999 , lng: 74.629997},
+        hours: '9AM to 9PM'
+    },
+    {
+        name: 'Fourth Store',
+        location: {lat:16.994444 , lng: 73.300003},
+        hours: '9AM to 9PM'
+    },
+    {
+        name: 'Fifth Store',
+        location: {lat: 19.155001, lng: 72.849998},
+        hours: '9AM to 9PM'
+    },
+    {
+        name: 'Sixth Store',
+        location: {lat: 24.794500, lng: 73.055000},
+        hours: '9AM to 9PM'
+    }
+];
+                    </pre>
+
+
                 </div>
                 <div class="map_container">
                     <div id="map"></div>
