@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="custom_wrapper">
+        <div class="custom_page">
+            <div class="map">
+                <div class="listing">
+                    <div class="search_box">
+                        <input type="text" placeholder="Search" id="search" autocomplete="off">
+                        <div id="search_suggestion" style="display: none;">
+                            <ul></ul>
+                        </div>
+                    </div>    
+                    <ul class="address_list">
+                        <div id="info_div"></div>
+                    </ul>
+                </div>
+                <div class="map_container">
+                    <div id="map"></div>
+                </div>
+            </div>        
+        </div>
+    </div>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-n83oommw9bndP4PplxO5Qw5rmAWZMIU&callback=initMap"
+    type="text/javascript"></script>
+    <script src="custom.js"></script>
+
+</body>
+</html>
