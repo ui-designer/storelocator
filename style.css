@@ -51,6 +51,8 @@
     top: 39px;
     width: 100%;
     border: 1px solid #ccc;
+    z-index: 9;
+    background: #fff;
 }
 
 #search_suggestion ul li {
